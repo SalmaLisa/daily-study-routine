@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  font-size: 30px;
+  color:#a153e96c ;
+}
+
+.title{
+  margin-left: 10px;
+  color: blueviolet;
+}
+.semi-title{
+  color: #9b45ec;
+  margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+.main{
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+}
+.routine-container{
+  margin: 40px 80px;
+}
+.subject-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.side-part{
+  background-color: #ffffff9f;
+  
+}

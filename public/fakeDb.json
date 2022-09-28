@@ -1,0 +1,38 @@
+[
+  {
+    "id":"4",
+    "img":"https://edcraft.io/wp-content/uploads/2021/03/661087543.png",
+    "activity":"Physics",
+    "duration":"90 min"
+  },
+  {
+    "id":"5",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohpWEHUrTUqe5Rvc5ZOrRUIFCS1MOeSXpNg&usqp=CAU",
+    "activity":"Chemistry",
+    "duration":"75 min"
+  },
+  {
+    "id":"6",
+    "img":"https://blog.tuf.edu.pk/wp-content/uploads/2021/04/Islamic-studies.png",
+    "activity":"Islamic Studies",
+    "duration":"40 min"
+  },
+  {
+    "id":"1",
+    "img":"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/139157225/original/58c0cd301473df65868cab7eec42aaf96a9f8b90/teach-u-mathmatics-and-physics.jpg",
+    "activity":"Mathematics",
+    "duration":"60 min"
+  },
+  {
+    "id":"2",
+    "img":"https://fluencycorp.com/wp-content/uploads/2019/01/hardest-part-learning-english.jpg?w=144",
+    "activity":"English",
+    "duration":"90 min"
+  },
+  {
+    "id":"3",
+    "img":"https://study.com/cimages/course-image/biology-101-syllabus-resource-lesson-plans_139158_large.jpg",
+    "activity":"Biology",
+    "duration":"60 min"
+  }
+]

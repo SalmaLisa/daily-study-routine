@@ -1,0 +1,18 @@
+.heading{
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.break-duration{
+  background-color: #b3f5e75e;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.break-duration button{
+  width: 45px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid blueviolet;
+  font-weight: 600;
+}

@@ -1,0 +1,34 @@
+.details-section{
+  margin-top: 40px;
+}
+.heading{
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.study-details,.break-time{
+  background-color: #b3f5e75e;
+  padding: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.break-time{
+  margin-top: 15px;
+}
+.completed-btn{
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius:8px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: wheat;
+  background-color: blueviolet;
+}
+.completed-btn:hover{
+  background-color: #a153e9be;
+  color: black;
+}
