@@ -1,7 +1,10 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 import './StudyDetails.css'
 
-const StudyDetails = ({studyDuration,breakTime}) => {
+const StudyDetails = ({ studyDuration, breakTime }) => {
+  const notify = () => toast("Wow ! You've completed today's routine.");
   return (
     <div className='details-section'>
       <p className='heading'>Study Details</p>
@@ -13,7 +16,8 @@ const StudyDetails = ({studyDuration,breakTime}) => {
         <small>Break Time : </small>
         <small>{breakTime} min</small>
       </div>
-      <button className='completed-btn'>Routine Completed</button>
+      <button onClick={notify} className='completed-btn'>Routine Completed</button>
+      <ToastContainer  toastStyle={{ backgroundColor: "#a153e9",color:"white",height:"150px",fontWeight:"600",fontSize:"17px" }}/>
     </div>
   );
 };
