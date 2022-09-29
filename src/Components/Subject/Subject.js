@@ -5,7 +5,9 @@ const Subject = ({ subject,addBtnClickHandler }) => {
   const { img, activity, duration } = subject;
   return (
     <div className='subject'>
-      <img src={img} alt="" />
+      <div className='img-container'>
+      <img className='img-fluid' src={img} alt="" />
+      </div>
       <div className='activities-info'>
       <h4>{activity}</h4>
       <p>Duration : {duration} min</p>

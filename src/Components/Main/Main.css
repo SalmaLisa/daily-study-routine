@@ -28,3 +28,16 @@
   color: blueviolet;
   margin-bottom: 30px;
 }
+@media only screen and (max-width:576px) {
+  .main{
+    grid-template-columns: 1fr;
+  }
+  .routine-container{
+    margin:40px;
+  }
+  .subject-container{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: auto;
+  }
+}

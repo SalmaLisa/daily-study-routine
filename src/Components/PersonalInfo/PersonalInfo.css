@@ -17,3 +17,8 @@
 .info{
   font-weight: 500;
 }
+@media only screen and (max-width:576px) {
+  .side-section{
+    margin: 0 20px;
+  }
+ }

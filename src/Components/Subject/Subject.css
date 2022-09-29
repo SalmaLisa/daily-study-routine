@@ -4,10 +4,12 @@
   border: 2px solid #808080b0;
   border-radius: 10px;
 }
+.img-container{
+  padding: 10px;
+}
 .subject img{
   width: 270px;
   height: 200px;
-  margin: 10px;
 }
 .activities-info{
   margin-left: 15px;
@@ -27,4 +29,12 @@
 .add-Btn:hover{
   background-color: #a153e9be;
   color: black;
+}
+@media only screen and (max-width:576px) {
+ .subject{
+  width: 100%;
+ }
+ .subject img{
+  width: 100%;
+ }
 }
