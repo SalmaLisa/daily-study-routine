@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-
+import QuestionsAnswer from '../Accordion/Accordion';
 import Header from '../Header/Header';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import Subject from '../Subject/Subject';
@@ -31,7 +31,8 @@ const Main = () => {
     setBreakTime(breakDuration)
   }
   return (
-    <div className='main'>
+    <div>
+      <div className='main'>
       <div className='routine-container'>
         <Header></Header>
         <div className='subject-container'>
@@ -50,6 +51,11 @@ const Main = () => {
           breakTimeAdd={breakTimeAdd}
           breakTime={breakTime}
         ></PersonalInfo>
+      </div>
+      </div>
+      <div className='accordion-container'>
+        <h1 className='accordion-title'>Important Questions</h1>
+        <QuestionsAnswer></QuestionsAnswer>
       </div>
     </div>
   );

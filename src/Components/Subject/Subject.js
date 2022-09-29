@@ -10,7 +10,7 @@ const Subject = ({ subject,addBtnClickHandler }) => {
       <h3>{activity}</h3>
       <p>Duration : {duration} min</p>
       </div>
-      <button onClick={()=>addBtnClickHandler(duration)} className='add-Btn'>Add to list</button>
+      <button onClick={()=>addBtnClickHandler(duration)} className='add-Btn'>Completed</button>
     </div>
   );
 };
