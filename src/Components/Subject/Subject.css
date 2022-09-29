@@ -38,3 +38,11 @@
   width: 100%;
  }
 }
+@media only screen and (min-width:577px) and (max-width:992px) {
+  .subject{
+    width: 100%;
+   }
+   .subject img{
+    width: 100%;
+   }
+}

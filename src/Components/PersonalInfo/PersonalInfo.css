@@ -22,3 +22,8 @@
     margin: 0 20px;
   }
  }
+ @media only screen and (min-width:577px) and (max-width:992px) {
+  .side-section{
+    margin: 0 80px;
+  }
+}
