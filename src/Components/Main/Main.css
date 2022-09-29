@@ -12,7 +12,8 @@
 }
 .side-part{
   background-color: #ffffff9f;
-  
+  height: 580px;
+  border-radius: 0 0 10px 10px;
 }
 .accordion-container{
   width: 80%;
