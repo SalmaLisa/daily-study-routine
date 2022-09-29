@@ -15,4 +15,5 @@
   border-radius: 50%;
   border: 2px solid blueviolet;
   font-weight: 600;
+  cursor: pointer;
 }

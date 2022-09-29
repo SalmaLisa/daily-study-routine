@@ -4,7 +4,7 @@ import img from '../../avatar.png'
 import Break from '../Break/Break';
 import StudyDetails from '../StudyDetails/StudyDetails';
 
-const PersonalInfo = () => {
+const PersonalInfo = ({studyDuration, breakTimeAdd, breakTime}) => {
   return (
     <div className='side-section'>
       <div className='personal-info'>
@@ -14,8 +14,13 @@ const PersonalInfo = () => {
           <p className='info'>Class : X</p>
       </div>
       </div>
-      <Break></Break>
-      <StudyDetails></StudyDetails>
+      <Break
+        breakTimeAdd={breakTimeAdd}
+      ></Break>
+      <StudyDetails
+        studyDuration={studyDuration}
+        breakTime={breakTime}
+      ></StudyDetails>
    </div>
   );
 };
