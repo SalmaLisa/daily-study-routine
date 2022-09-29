@@ -7,7 +7,7 @@ const Subject = ({ subject,addBtnClickHandler }) => {
     <div className='subject'>
       <img src={img} alt="" />
       <div className='activities-info'>
-      <h3>{activity}</h3>
+      <h4>{activity}</h4>
       <p>Duration : {duration} min</p>
       </div>
       <button onClick={()=>addBtnClickHandler(duration)} className='add-Btn'>Completed</button>

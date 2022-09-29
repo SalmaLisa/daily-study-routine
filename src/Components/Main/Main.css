@@ -3,7 +3,7 @@
   grid-template-columns: 6fr 2fr;
 }
 .routine-container{
-  margin: 40px 80px;
+  margin:80px;
 }
 .subject-container{
   display: grid;
